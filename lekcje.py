@@ -76,8 +76,7 @@ def poniedzialek():
     elif d.hour == 13 and d.minute ==15:
         wyslanie(5)
         wyslanie2(5)
-    elif d.hour == 17 and d.minute ==38:
-        wyslanie(5)
+    
         
 
 
@@ -179,7 +178,7 @@ def piatek():
 #pętla sprawdza godzine
 while True:
     d = datetime.datetime.today()
-    print(d)
+    
     time.sleep(3)
     if datetime.datetime.now().weekday() == 0:
         poniedzialek()
