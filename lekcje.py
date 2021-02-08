@@ -174,6 +174,7 @@ def piatek():
 #pętla sprawdza godzine
 while True:
     d = datetime.datetime.today()
+    print(d)
     time.sleep(3)
     if datetime.datetime.now().weekday() == 0:
         poniedzialek()
