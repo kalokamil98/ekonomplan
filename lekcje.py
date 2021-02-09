@@ -1,8 +1,8 @@
+import os
+from os import environ
 from dhooks import Webhook
 import datetime
 import time
-import os
-from os import environ
 
 #link webhooka
 hook = Webhook(environ['kluczyk'])
@@ -119,8 +119,8 @@ def sroda():
         wyslanie2(13)
 
     elif d.hour == 9 and d.minute ==50:
-        wyslanie(6)
-        wyslanie2(6)
+        wyslanie(13)
+        wyslanie2(13)
 
     elif d.hour == 10 and d.minute ==45:
         wyslanie(14)
