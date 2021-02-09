@@ -31,13 +31,13 @@ lekcja = ["Aplikacje internetowe",
 def wyslanie(x):
     x
    
-    hook.send(f'{d.hour}godzina,{d.minute} minuta ,{lekcja[x]} <@&803931420664922152>')
+    hook.send(f'{d.hour+1}godzina,{d.minute} minuta ,{lekcja[x]} <@&803931420664922152>')
     
 
 def wyslanie2(x):
     x
     
-    hook.send(f'{d.hour}godzina,{d.minute} minuta ,{lekcja[x]} <@&803931239617789962>')
+    hook.send(f'{d.hour+1}godzina,{d.minute} minuta ,{lekcja[x]} <@&803931239617789962>')
     time.sleep(60)
 
 
