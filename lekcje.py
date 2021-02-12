@@ -168,7 +168,7 @@ def piatek():
 
     elif d.hour == 12 and d.minute ==25:
         wyslanie(6)
-        wyslanie2(3)
+        wyslanie2(6)
     elif d.hour == 13 and d.minute ==15:
         wyslanie2(3)
  
