@@ -88,8 +88,8 @@ def wtorek():
         wyslanie(1)
         wyslanie2(1)
     elif d.hour == 8 and d.minute == 45:
-        wyslanie(6)
-        wyslanie2(6)
+        wyslanie(13)
+        wyslanie2(13)
 
     elif d.hour == 9 and d.minute ==50:
         wyslanie(8)
